@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <script src="https://kit.fontawesome.com/ec84adcaea.js" crossorigin="anonymous"></script>
+
+
+    <link 
+      rel="icon" 
+      href="/assets/icons/favicon.png" 
+      sizes="32x32" 
+      type="image/png"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Sanjay Kunchappan | Web Designer - Developer</title>
+  </head>
+  
+  <body>
+    <nav>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+    
+
+
+    <div  class="about animate__animated animate__zoomIn"> 
+      <h1 class="main-header">Sanjay Kunchappan</h1>
+      <h2 class="sub-header">Web Developer</h2>
+    </div>
+
+    <section id="about" class="more-about">
+      <h2>A Little Bit About Me</h2>
+      <p>
+        I recently completed post-graduation in Web Design and Development from Conestoga College, Canada.
+      </p>
+      <p>
+        I have 3+ years of experience designing, developing, maintaining and testing web applications as well as enhancing existing and new systems.
+      </p>
+      <p>
+        Expertise in designing and developing responsive user interface for web applications using latest technologies.      
+      </p>
+    </section>
+
+    <section class="skills" id="skills">
+      <h2 class="skill-header">Technologies I have worked with.</h2>
+      <p class="skill-header2">My Tech Stack</p>
+      <div class="skills-wrapper">
+        <div class="first-set">
+          <img
+            src="assets/icons/icons8-html-5.svg"
+            alt="html-icon"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-css3.svg"
+            alt="css-icon"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-javascript.svg"
+            alt="javascript-logo"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set">
+          <img
+            src="assets/icons/icons8-bootstrap.svg"
+            alt="bootstrap-logo"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-react-native.svg"
+            alt="react-logo"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-git.svg"
+            alt="git-logo"
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of My Latest Projects.</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/between-buns-project.png"
+            alt="between-buns-project-screenshot"
+            class="project-pic"
+          />
+          <h3 class="project-title">Between Buns</h3>
+          <p class="project-details">
+            Tech Stack Used: React JS, Node JS, MongoDB, Express JS, HTML 5, CSS 3, Javascript ES6
+          </p>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/yahoo-stocks-visualisation.png"
+            alt="yahoo-stocks-visualisation-project-screenshot"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Yahoo Stocks</h3>
+          <p class="project-details">
+            Tech Stack Used: D3.js, Angular, Node JS, MySQL, Express JS, HTML 5, CSS 3, Javascript ES6
+          </p>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/save-planet.png"
+            alt="save-planet-project-screenshot"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Save Planet</h3>
+          <p class="project-details">
+            Tech Stack Used: React JS, Node JS, MongoDB, Express JS, HTML 5, CSS 3, Javascript ES6
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xyylnggw" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <i class="scroll-up" id="scroll-up">
+      <img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt=""/>
+    </i>
+
+    <footer>
+
+      <div class="social-class">  
+        <a href="https://github.com/SanjayKunchappan">
+          <i class="fa-brands fa-github fa-2xl"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/sanjay-k/">
+          <i class="fa-brands fa-linkedin fa-2xl"></i>        </a>   
+      </div>       
+
+
+
+      <h5 class="copyright">
+        Created by
+        <a href="#" target="_blank"
+          >Sanjay Kunchappan</a        >
+      </h5>
+      <p class="copyright">&copy;Copyright 2022. All Rights Reserved.</p>
+    </footer>
+
+    <script src="assets/js/app.js"></script>
+
+  </body>
+</html>
